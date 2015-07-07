@@ -1,0 +1,19 @@
+{
+    "name": "mlo/console-bundle",
+    "description": "Symfony2 Bundle for interacting with the Symfony container through the command line",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Loberg",
+            "email": "loberg.matt@gmail.com"
+        }
+    ],
+    "require": {
+        "psy/psysh": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mlo\\ConsoleBundle\\": ""
+        }
+    }
+}
