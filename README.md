@@ -5,7 +5,7 @@ Interact with Symfony's container through the command line. Uses
 
 ## Installation
 
-_Coming Soon_
+    composer require mlo/console-bundle
 
 ## Usage
 
@@ -16,3 +16,6 @@ if (in_array($this->getEnvironment(), array('dev', 'test'))) {
     $bundles[] = new Mlo\ConsoleBundle\MloConsoleBundle();
 }
 ```
+
+Once it's registered `app/console console` will start a new interactive shell.
+From here you can access `$container` and `$kernel`.
