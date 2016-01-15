@@ -1,11 +1,11 @@
 # ConsoleBundle
 
-Interact with Symfony's container through the command line. Uses
-[Psysh](http://psysh.org/) for the console.
+Interact with Symfony's container through the command line. Uses [Psysh][psysh]
+for the console.
 
 ## Installation
 
-    composer require mlo/console-bundle
+    composer require --dev mlo/console-bundle
 
 ## Usage
 
@@ -19,3 +19,5 @@ if (in_array($this->getEnvironment(), array('dev', 'test'))) {
 
 Once it's registered `app/console console` will start a new interactive shell.
 From here you can access `$container` and `$kernel`.
+
+[psysh]: http://psysh.org/

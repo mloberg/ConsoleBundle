@@ -1,11 +1,9 @@
 <?php
-/**
- * ConsoleCommand.php
- * 
- * @package Mlo\ConsoleBundle
- * @subpackage Command
+/*
+ * Copyright (c) 2015 Matthew Loberg
+ * Distributed under the MIT License (http://opensource.org/licenses/MIT)
  */
- 
+
 namespace Mlo\ConsoleBundle\Command;
 
 use Psy\Shell;
