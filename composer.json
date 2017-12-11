@@ -1,6 +1,6 @@
 {
     "name": "mlo/console-bundle",
-    "description": "Symfony2 Bundle for interacting with the Symfony container through the command line",
+    "description": "Symfony Bundle for interacting with the Symfony container through the command line",
     "license": "MIT",
     "authors": [
         {
@@ -9,11 +9,16 @@
         }
     ],
     "require": {
-        "psy/psysh": "*"
+        "psy/psysh": "*",
+        "symfony/console": "~2.7|~3.0|~4.0",
+        "symfony/framework-bundle": "~2.7|~3.0|~4.0"
+    },
+    "require-dev": {
+        "symfony/yaml": "~2.7|~3.0|~4.0"
     },
     "autoload": {
         "psr-4": {
-            "Mlo\\ConsoleBundle\\": ""
+            "Mlo\\ConsoleBundle\\": "src/"
         }
     }
 }
