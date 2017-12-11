@@ -1,5 +1,6 @@
 {
     "name": "mlo/console-bundle",
+    "type": "symfony-bundle",
     "description": "Symfony Bundle for interacting with the Symfony container through the command line",
     "license": "MIT",
     "authors": [
