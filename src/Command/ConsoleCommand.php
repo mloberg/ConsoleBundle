@@ -55,6 +55,6 @@ class ConsoleCommand extends Command
         $application->setCatchExceptions(false);
         $application->setAutoExit(false);
 
-        $this->shell->run();
+        return $this->shell->run();
     }
 }

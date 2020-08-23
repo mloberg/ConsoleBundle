@@ -12,8 +12,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $builder = new TreeBuilder();
-        $root = $builder->root('mlo_console');
+        $builder = new TreeBuilder('mlo_console');
+        $root = $builder->getRootNode();
 
         $root
             ->children()
